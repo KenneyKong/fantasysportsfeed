@@ -1,0 +1,118 @@
+#navbar {
+    overflow: hidden;
+    font-size: 1vw;
+    font-family: 'Orbitron', sans-serif;
+    position: fixed;
+    background-color: #172644;
+    z-index: 1;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    border-bottom:1vw solid #E04A4A;
+  }
+  
+  li {
+    display: inline;
+    padding: 10px;
+  }
+  
+  #FSFbanner:hover {
+    text-decoration: none;
+  }
+  #FSFbanner {
+    display: inline;
+    color: white;
+    font-size: 3vw;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #515A5A;
+    font-family: 'aeromatics nc','Team Spirit NF', 'Orbitron', sans-serif;
+  }
+  
+  #sportsLinks {
+    padding-top: 1.7vw;
+    float: right;
+  }
+  a:link {
+    color: white;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: white;
+  }
+  
+  a:hover {
+    text-shadow: 1px 1px 2px black, 0 0 25px red, 0 0 5px white;
+    text-decoration: overline;
+  }
+  
+  a:active {
+    color: gray;
+  }
+  
+  body {
+    background-color: #EEEEEE;
+  }
+  
+  #message {
+    color: white;
+    text-decoration: overline;
+    font-size: 1.6vw;
+    padding-top: 20vw;
+    text-align: center;
+    font-family: 'Orbitron', sans-serif;
+    text-shadow: 1px 1px 2px black, 0 0 20px #898F97, 0 0 5px white;
+  }
+  
+  #NFL {
+    color: white;
+    font-family: 'Orbitron', sans-serif;
+    text-shadow: 2px 2px 2px black, 0 0 25px red, 0 0 5px white;
+    text-align: right;
+    padding-bottom: 5vw;
+  }
+  #NFL-twit {
+  display: none;
+  padding-top: 15vw;
+  }
+  
+  #NBA {
+    text-align: right;
+    color: white;
+    font-family: 'Orbitron', sans-serif;
+    text-shadow: 2px 2px 2px black, 0 0 25px red, 0 0 5px white;
+    padding-bottom: 5vw;
+  }
+  #NBA-twit {
+    display: none;
+    padding-top: 15vw;
+  }
+  
+  #MLB {
+    text-align: right;
+    color: white;
+    font-family: 'Orbitron', sans-serif;
+    text-shadow: 2px 2px 2px black, 0 0 25px red, 0 0 5px white;
+    padding-bottom: 5vw;
+  }
+  #MLB-twit {
+    display: none;
+    padding-top: 15vw;
+  }
+  
+  #NHL {
+    text-align: right;
+    color: white;
+    font-family: 'Orbitron', sans-serif;
+    text-shadow: 2px 2px 2px black, 0 0 25px red, 0 0 5px white;
+    padding-bottom: 5vw;
+  }
+  #NHL-twit {
+    display: none;
+    padding-top: 15vw;
+  }
+  
+  .twitter-timeline {
+    display: inline-flex !important;
+   } 

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap');
+  
+@import url('https://fonts.cdnfonts.com/css/team-spirit-nf');  
+
+@import url('https://fonts.cdnfonts.com/css/aeromatics-nc');  
+</style>  
+</head>
+
+<nav id="navbar">
+  <ul>
+    <li><a id="FSFbanner" href="https://codepen.io/Kenneykong/full/MWqmJvL?authentication_hash=DqrDdGXzoWjr#NHL">Fantasy Sports Feed</a></li>
+    
+    <div id="sportsLinks"
+    <li><a onclick="showNFLfeed()" id="navLinkNFL" href="#NFL">NFL</a></li>
+    <li><a onclick="showNBAfeed()" id="navLinkNBA" href="#NBA">NBA</a></li>
+    <li><a onclick="showMLBfeed()" id="navLinkMLB" href="#MLB">MLB</a></li>
+    <li><a onclick="showNHLfeed()" id="navLinkNHL" href="#NHL">NHL</a></li>
+  </div>
+  </ul>
+</nav>
+
+<body>
+
+    <script type="text/javascript" src="main.js"></script>
+
+<div id= "message">Select a sport to load feed, unselect to close feed.
+</div>  
+
+<div id = "NFL-twit">
+<span>  
+<a class="twitter-timeline" data-width="24vw" data-height="350" data-theme="light" href="https://twitter.com/AdamSchefter?ref_src=twsrc%5Etfw">Tweets by AdamSchefter</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<a class="twitter-timeline" data-width="24vw" data-height="350" data-theme="light" href="https://twitter.com/RapSheet?ref_src=twsrc%5Etfw">Tweets by RapSheet</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+  
+<a class="twitter-timeline" data-width="24vw" data-height="350" data-theme="light" href="https://twitter.com/FieldYates?ref_src=twsrc%5Etfw">Tweets by FieldYates</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<a class="twitter-timeline" data-width="24vw" data-height="350" data-theme="light" href="https://twitter.com/JosinaAnderson?ref_src=twsrc%5Etfw">Tweets by JosinaAnderson</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    <h1 id="NFL">National Football League</h1>  
+  </span>
+</div>
+
+<div id="NBA-twit">
+<span>
+<a class="twitter-timeline" data-width="24vw" data-height="350" data-theme="light" href="https://twitter.com/wojespn?ref_src=twsrc%5Etfw">Tweets by wojespn</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<a class="twitter-timeline" data-width="24vw" data-height="350" data-theme="light" href="https://twitter.com/ShamsCharania?ref_src=twsrc%5Etfw">Tweets by ShamsCharania</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+  
+<a class="twitter-timeline" data-width="24vw" data-height="350" data-theme="light" href="https://twitter.com/ZachLowe_NBA?ref_src=twsrc%5Etfw">Tweets by ZachLowe_NBA</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+  
+<a class="twitter-timeline" data-width="24vw" data-height="350" data-theme="light" href="https://twitter.com/WindhorstESPN?ref_src=twsrc%5Etfw">Tweets by WindhorstESPN</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    <h1 id="NBA">National Basketball Association</h1>  
+  </span>
+</div>
+  
+<div id="MLB-twit">
+<span>  
+<a class="twitter-timeline" data-width="24vw" data-height="350" data-theme="light" href="https://twitter.com/Ken_Rosenthal?ref_src=twsrc%5Etfw">Tweets by Ken_Rosenthal</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<a class="twitter-timeline" data-width="24vw" data-height="350" data-theme="light" href="https://twitter.com/JeffPassan?ref_src=twsrc%5Etfw">Tweets by JeffPassan</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+  
+<a class="twitter-timeline" data-width="24vw" data-height="350" data-theme="light" href="https://twitter.com/JonHeyman?ref_src=twsrc%5Etfw">Tweets by JonHeyman</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+  
+<a class="twitter-timeline" data-width="24vw" data-height="350" data-theme="light" href="https://twitter.com/ByMcCullough?ref_src=twsrc%5Etfw">Tweets by ByMcCullough</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    <h1 id="MLB">Major League Baseball</h1>
+  </span>
+</div>
+
+<div id="NHL-twit"> 
+<span>  
+<a class="twitter-timeline" data-width="24vw" data-height="350" data-theme="light" href="https://twitter.com/TSNBobMcKenzie?ref_src=twsrc%5Etfw">Tweets by TSNBobMcKenzie</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<a class="twitter-timeline" data-width="24vw" data-height="350" data-theme="light" href="https://twitter.com/DarrenDreger?ref_src=twsrc%5Etfw">Tweets by DarrenDreger</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+  
+<a class="twitter-timeline" data-width="24vw" data-height="350" data-theme="light" href="https://twitter.com/FriedgeHNIC?ref_src=twsrc%5Etfw">Tweets by FriedgeHNIC</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+  
+<a class="twitter-timeline" data-width="24vw" data-height="350" data-theme="light" href="https://twitter.com/RussoHockey?ref_src=twsrc%5Etfw">Tweets by RussoHockey</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    <h1 id="NHL">National Hockey League</h1>
+  </span>
+</body>
+</div>
