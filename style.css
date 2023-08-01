@@ -22,7 +22,7 @@
   }
   #FSFbanner {
     display: inline;
-    color: #ffffff;
+    color: white;
     font-size: 3vw;
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: #515A5A;
@@ -34,16 +34,16 @@
     float: right;
   }
   a:link {
-    color: #ffffff;
+    color: white;
     text-decoration: none;
   }
   
   a:visited {
-    color: #ffffff;
+    color: white;
   }
   
   a:hover {
-    text-shadow: 1px 1px 2px black, 0 0 25px #1DA1F2, 0 0 5px #ffffff;
+    text-shadow: 1px 1px 2px black, 0 0 25px #1DA1F2, 0 0 5px white;
     text-decoration: overline;
   }
   
@@ -81,7 +81,7 @@
     text-align: right;
     color: white;
     font-family: 'Orbitron', sans-serif;
-    text-shadow: 2px 2px 2px black, 0 0 25px red, 0 0 5px #ffffff;
+    text-shadow: 2px 2px 2px black, 0 0 25px red, 0 0 5px white;
     padding-bottom: 5vw;
   }
   #NBA-twit {
@@ -96,6 +96,7 @@
     text-shadow: 2px 2px 2px black, 0 0 25px red, 0 0 5px #ffffff;
     padding-bottom: 5vw;
   }
+
   #MLB-twit {
     display: none;
     padding-top: 15vw;
@@ -105,7 +106,7 @@
     text-align: right;
     color: white;
     font-family: 'Orbitron', sans-serif;
-    text-shadow: 2px 2px 2px black, 0 0 25px red, 0 0 5px #ffffff;
+    text-shadow: 2px 2px 2px black, 0 0 25px red, 0 0 5px white;
     padding-bottom: 5vw;
   }
   #NHL-twit {
