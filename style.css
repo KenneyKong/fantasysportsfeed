@@ -23,7 +23,7 @@
 
   #FSFbanner {
     display: inline;
-    color: #ffffff;
+    color: #fff;
     font-size: 3vw;
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: #515A5A;
@@ -35,16 +35,16 @@
     float: right;
   }
   a:link {
-    color: #ffffff;
+    color: #fff;
     text-decoration: none;
   }
   
   a:visited {
-    color: #ffffff;
+    color: #fff;
   }
   
   a:hover {
-    text-shadow: 1px 1px 2px #000000, 0 0 25px #1DA1F2, 0 0 5px #ffffff;
+    text-shadow: 1px 1px 2px #000000, 0 0 25px #1DA1F2, 0 0 5px #fff;
     text-decoration: overline;
   }
   
@@ -53,23 +53,23 @@
   }
   
   body {
-    background-color: #eeeeee;
+    background-color: #eee;
   }
   
   #message {
-    color: #ffffff;
+    color: #fff;
     text-decoration: overline;
     font-size: 1.6vw;
     padding-top: 20vw;
     text-align: center;
     font-family: 'Orbitron', sans-serif;
-    text-shadow: 1px 1px 2px #000000, 0 0 20px #898F97, 0 0 5px #ffffff;
+    text-shadow: 1px 1px 2px #000000, 0 0 20px #898F97, 0 0 5px #fff;
   }
   
   #NFL {
-    color: #ffffff;
+    color: #fff;
     font-family: 'Orbitron', sans-serif;
-    text-shadow: 2px 2px 2px #000000, 0 0 25px red, 0 0 5px #ffffff;
+    text-shadow: 2px 2px 2px #000000, 0 0 25px red, 0 0 5px #fff;
     text-align: right;
     padding-bottom: 5vw;
   }
@@ -80,9 +80,9 @@
   
   #NBA {
     text-align: right;
-    color: #ffffff;
+    color: #fff;
     font-family: 'Orbitron', sans-serif;
-    text-shadow: 2px 2px 2px #000000, 0 0 25px red, 0 0 5px #ffffff;
+    text-shadow: 2px 2px 2px #000000, 0 0 25px red, 0 0 5px #fff;
     padding-bottom: 5vw;
   }
   #NBA-twit {
@@ -92,9 +92,9 @@
   
   #MLB {
     text-align: right;
-    color: #ffffff;
+    color: #fff;
     font-family: 'Orbitron', sans-serif;
-    text-shadow: 2px 2px 2px #000000, 0 0 25px red, 0 0 5px #ffffff;
+    text-shadow: 2px 2px 2px #000000, 0 0 25px red, 0 0 5px #fff;
     padding-bottom: 5vw;
   }
 
@@ -105,9 +105,9 @@
   
   #NHL {
     text-align: right;
-    color: #ffffff;
+    color: #fff;
     font-family: 'Orbitron', sans-serif;
-    text-shadow: 2px 2px 2px #000000, 0 0 25px red, 0 0 5px #ffffff;
+    text-shadow: 2px 2px 2px #000000, 0 0 25px red, 0 0 5px #fff;
     padding-bottom: 5vw;
   }
   #NHL-twit {
